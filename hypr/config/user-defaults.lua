@@ -1,0 +1,11 @@
+local barOrShell    = "qs -c noctalia-shell"                                -- Status bar/shell
+local terminal      = "kitty"                                               -- Terminal
+local fileManager   = "thunar"                                              -- File manager
+local menu          = "qs -c noctalia-shell ipc call launcher toggle"       -- App launcher
+local sessionMenu   = "qs -c noctalia-shell ipc call sessionMenu toggle"    -- Session menu (lock, suspend, shutdown...)
+local sessionLock   = "qs -c noctalia-shell ipc call sessionLock toggle"    -- Session lock
+local music         = "Spotify"                                             -- Music player / Streaming music service
+local screenshot    = "flameshot gui"                                       -- Screenshot utility
+local messageClient = "ferdium"                                             -- Message client (like Ferdium, Rambox...)
+local discordClient = "vesktop"                                             -- Discord client
+local browser       = "zen-browser"                                         -- Browser
