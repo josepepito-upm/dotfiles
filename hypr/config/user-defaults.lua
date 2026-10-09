@@ -1,11 +1,16 @@
-local barOrShell    = "qs -c noctalia-shell"                                -- Status bar/shell
-local terminal      = "kitty"                                               -- Terminal
-local fileManager   = "thunar"                                              -- File manager
-local menu          = "qs -c noctalia-shell ipc call launcher toggle"       -- App launcher
-local sessionMenu   = "qs -c noctalia-shell ipc call sessionMenu toggle"    -- Session menu (lock, suspend, shutdown...)
-local sessionLock   = "qs -c noctalia-shell ipc call sessionLock toggle"    -- Session lock
-local music         = "Spotify"                                             -- Music player / Streaming music service
-local screenshot    = "flameshot gui"                                       -- Screenshot utility
-local messageClient = "ferdium"                                             -- Message client (like Ferdium, Rambox...)
-local discordClient = "vesktop"                                             -- Discord client
-local browser       = "zen-browser"                                         -- Browser
+-- Default programs for keybindings and window rules
+local defaults = {}
+
+defaults.barOrShell     = "qs -c noctalia-shell"                                -- Status bar/shell
+defaults.terminal       = "kitty"                                               -- Terminal
+defaults.fileManager    = "thunar"                                              -- File manager
+defaults.menu           = "qs -c noctalia-shell ipc call launcher toggle"       -- App launcher
+defaults.sessionMenu    = "qs -c noctalia-shell ipc call sessionMenu toggle"    -- Session menu (lock, suspend, shutdown...)
+defaults.sessionLock    = "qs -c noctalia-shell ipc call sessionLock toggle"    -- Session lock
+defaults.music          = "Spotify"                                             -- Music player / Streaming music service
+defaults.screenshot     = "flameshot gui"                                       -- Screenshot utility
+defaults.messageClient  = "ferdium"                                             -- Message client (like Ferdium, Rambox...)
+defaults.discordClient  = "vesktop"                                             -- Discord client
+defaults.browser        = "zen-browser"                                         -- Browser
+
+return defaults
